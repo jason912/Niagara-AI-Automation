@@ -15,7 +15,7 @@ We have built and tested an **AI-powered automation pipeline** for Niagara 4 tha
 | API | Port | Auth | Cost |
 |-----|:----:|:----:|:----:|
 | **oBIX** | 80/443 | SCRAM-SHA-256 / HTTP Basic | 🆓 Free (built-in) |
-| **Gline REST API** | 8081 | None (LAN) | 🆓 Free (no SMA required) |
+| **Gline REST API** | Configurable (default 8081) | None (LAN) | 🆓 Free (no SMA required) |
 
 The AI (tested on **DeepSeek**) acts as a Niagara engineer — it reads the station structure, decides what operations to perform, then executes them via REST API and oBIX calls. No human in the loop.
 
