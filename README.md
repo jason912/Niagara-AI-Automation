@@ -1,16 +1,23 @@
-# Niagara AI Automation — oBIX + REST API 🤖
+# Niagara AI Automation Sample Process 🤖
 
 [![Niagara 4.14+](https://img.shields.io/badge/Niagara-4.14%2B-blue)](https://www.tridium.com)
 [![AI: DeepSeek](https://img.shields.io/badge/AI-DeepSeek%20(tested)-success)](https://deepseek.com)
-[![Free to use](https://img.shields.io/badge/Free%20to%20use-brightgreen)](LICENSE)
+[![Free modules](https://img.shields.io/badge/Gline%20Modules-Free-brightgreen)](https://github.com/jason912)
 
-> **Use AI to automate your Niagara station — point creation, linking, module deployment, alarm analysis, and history queries. Zero coding, zero license cost.**
+> **Sample process: use AI + Gline modules (REST API, oBIX, FTP Server) to automate Niagara data point collection and web dashboard creation. A reference for integration projects.**
 
 ---
 
 ## What Is This?
 
-We have built and tested an **AI-powered automation pipeline** for Niagara 4 that combines two free APIs:
+This repository demonstrates a **sample AI automation process** for Niagara 4 using Gline's free modules. It shows how AI can:
+
+- Auto-discover Modbus/BACnet devices and collect data points
+- Create and configure points via REST API
+- Generate PX/HTML web pages automatically
+- Deploy and verify pages via FTP Server
+
+The entire workflow runs on **DeepSeek V4 Flash + OpenClaw** and costs only cents in AI tokens.
 
 | API | Port | Auth | Cost |
 |-----|:----:|:----:|:----:|
